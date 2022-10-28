@@ -1,6 +1,7 @@
 <resources>
     ...
+    <string name="app_name">App Sencilla</string>
     <string name="nombre">Escribe tu nombre:</string>
-    <string name="aceptar">Aceptar:</string>
+    <string name="aceptar">Aceptar</string>
     ...
 </resources>

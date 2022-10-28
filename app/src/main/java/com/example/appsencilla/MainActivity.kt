@@ -1,10 +1,10 @@
+package com.example.appsencilla
+
 import android.content.Intent
 import android.os.Bundle
-import android.sgoliver.net.holausuario.SaludoActivity
 import android.widget.Button
 import android.widget.EditText
 import androidx.appcompat.app.AppCompatActivity
-import com.example.appsencilla.R
 
 class MainActivity : AppCompatActivity() {
     private lateinit var txtNombre : EditText

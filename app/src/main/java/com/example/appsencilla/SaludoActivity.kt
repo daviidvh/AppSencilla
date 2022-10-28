@@ -1,4 +1,4 @@
-package android.sgoliver.net.holausuario
+package com.example.appsencilla
 
 import android.os.Bundle
 import android.widget.TextView

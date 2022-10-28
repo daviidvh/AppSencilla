@@ -1,23 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/lytContenedor"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical"
+    tools:visibility="visible">
 
-    <TextView android:id="@+id/lblNombre"
+    <TextView
+        android:id="@+id/lblNombre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/nombre" />
 
-    <EditText android:id="@+id/txtNombre"
+    <EditText
+        android:id="@+id/txtNombre"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="text" />
 
-    <Button android:id="@+id/btnAceptar"
+    <Button
+        android:id="@+id/btnAceptar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/aceptar" />
+        android:background="#683838"
+        android:text="@string/aceptar"
+        app:iconTint="#225C6E" />
 
 </LinearLayout>
